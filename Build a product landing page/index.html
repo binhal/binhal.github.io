@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>Product landing page </title>
+        <style>
+            body {
+                display: flex;
+                background-color: lightgreen;
+                flex-wrap: wrap;
+            }
+            #nav-bar {
+                position: fixed;
+            }
+
+            @media (min-width: 600px) {
+                body {
+                    background-color: lightblue;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <article>
+            <header id="header">
+                <img src="" alt="header img" id="header-img">
+                <nav id="nav-bar">
+                   <a href="#video" class="nav-link">Video</a> |
+                   <a href="#form"  class="nav-link">Form</a> |
+                   <a href="#email"  class="nav-link">Email</a>
+                </nav>
+            </header>
+        </article> 
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/RKK7wGAYP6k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <label for="email">Email: </label>
+            <input name="email" required type="email" id="email" placeholder="Enter your email address: ">
+            <br>
+            <input type="submit" value="submit" id="submit">
+
+
+        </form>
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    </body>
+</html>

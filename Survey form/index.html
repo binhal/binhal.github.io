@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey form</title>
+</head>
+<body>
+    <h1 id="title">Survey form</h1>
+    <p id="description">A form to ask people opinion about some thing</p>
+    <form action="#" id="survey-form">
+        <label for="name" id="name-label">Name: </label>
+        <input type="text" id="name" placeholder="Enter your name" required>
+        <br>
+        <label for="email" id="email-label">Email: </label>
+        <input type="email" id="email" placeholder="Enter your email address" required>
+        <br>
+        <label for="number" id="number-label">Number: </label>
+        <input type="number" id="number" min="1" max="5" placeholder="Enter a number" required>
+        <br>    
+        <select name="cars" id="dropdown">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+        </select>
+        <br>
+        <label for="gender">Gender: </label>
+        <input type="radio" value="male" name="gender">
+        <label for="male">Male </label>
+        <input type="radio" value="female" name="gender">
+        <label for="female">Female</label>
+        <input type="radio" value="not specified" name="gender">
+        <label for="gender">Not specified</label>
+        <br>
+        <label for="pet">Pet(s) that you like: </label>
+        <input type="checkbox" value="dog">
+        <label for="pet">Dog</label>
+        <input type="checkbox" name="cat" id="cat" value="cat">
+        <label for="pet">Cat</label>
+        <br>
+        <textarea name="comment" id="comment" cols="30" rows="10">This is textarea.</textarea>
+        <br>
+        <input type="submit" id="submit">
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    </form>
+</body>
+</html>

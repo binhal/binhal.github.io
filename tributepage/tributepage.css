@@ -1,0 +1,12 @@
+div {
+   display: relative; 
+}
+
+#image {
+    display: block;
+    padding: auto;
+    margin: auto;
+    width: 50%;
+    max-width: max-content;
+}
+

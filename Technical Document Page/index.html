@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #navbar {
+            position: fixed;
+            min-width: 290px;
+            top: 0px;
+            left: 0px;
+            width: 300px;
+            height: 100%;
+            border-right: solid;
+            border-color: rgba(0, 22, 22, 0.4);
+        }
+        #main-doc {
+            position: relative;
+            left: 290px;
+            padding-left: 10px;
+        }
+        @media only screen and (max-width: 768px) {
+            #navbar {
+                background-color: lightblue;
+                position: relative;
+                width: 100%;
+                border-bottom: solid;
+                border-color: rgba(0, 22, 22, 0.4);
+            }
+            #main-doc {
+                left: 0px;
+            }
+        }
+    </style>
+    <title>Technical Documentation Page</title>
+</head>
+<body>
+    <nav id="navbar">
+        <header>Technical Documentation</header>
+        <li>
+            <ol><a href="#food" class="nav-link">Food</a></ol>
+            <ol><a href="#drink" class="nav-link">Drink</a></ol>
+            <ol><a href="#sleep" class="nav-link">Sleep</a></ol>
+            <ol><a href="#Genshin_Impact" class="nav-link">Genshin Impact</a></ol>
+            <ol><a href="#tft" class="nav-link">TFT</a></ol>
+        </li>
+    </nav>
+    <main id="main-doc">
+        <section class="main-section" id="food">
+            <header>Food</header>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, delectus. Dolorem, odit expedita quod illum odio architecto commodi blanditiis, dolorum aspernatur nam possimus eveniet accusantium. Nihil mollitia veritatis incidunt fuga.</p> 
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, delectus. Dolorem, odit expedita quod illum odio architecto commodi blanditiis, dolorum aspernatur nam possimus eveniet accusantium. Nihil mollitia veritatis incidunt fuga.</p> 
+            <code></code>
+            <li>Food list
+                <ol>Sandwich</ol>
+                <ol>Fried rice</ol>
+            </li>
+        </section>
+        <section class="main-section" id="drink">
+            <header>Drink</header>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae magnam facilis obcaecati mollitia nihil? Provident dolorum illo a rerum ipsum totam repudiandae, unde animi doloremque culpa recusandae amet qui reiciendis.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae magnam facilis obcaecati mollitia nihil? Provident dolorum illo a rerum ipsum totam repudiandae, unde animi doloremque culpa recusandae amet qui reiciendis.</p>
+            <code>This is code</code>
+            <li>Drink list
+                <ol>Coca</ol>
+                <ol>Pepsi</ol>
+            </li>
+        </section>
+        <section class="main-section" id="sleep">
+            <header>Sleep</header>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, hic sed aspernatur fuga necessitatibus doloribus esse vel. Illum excepturi, suscipit sed eveniet itaque, sit nam libero quibusdam asperiores, autem corporis.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, hic sed aspernatur fuga necessitatibus doloribus esse vel. Illum excepturi, suscipit sed eveniet itaque, sit nam libero quibusdam asperiores, autem corporis.</p>
+            <code>This is code</code>
+            <li>Sleep list
+                <ol>left</ol>
+                <ol>right</ol>
+            </li>
+        </section>
+        <section class="main-section" id="Genshin_Impact">
+            <header>Genshin Impact</header>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores ab fugiat, vitae error obcaecati accusamus labore modi quibusdam quam minima reiciendis explicabo unde distinctio, expedita accusantium? Ea delectus minima esse!</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores ab fugiat, vitae error obcaecati accusamus labore modi quibusdam quam minima reiciendis explicabo unde distinctio, expedita accusantium? Ea delectus minima esse!</p>
+            <code>This is code</code>
+            <li>Genshin Impact</li>
+        </section>
+        <section class="main-section" id="tft">
+            <header>TFT</header>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia iusto velit ea molestiae placeat quasi incidunt. Voluptas officiis iure assumenda voluptatem dignissimos eius possimus ut vitae facere? In, odit dolor!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia iusto velit ea molestiae placeat quasi incidunt. Voluptas officiis iure assumenda voluptatem dignissimos eius possimus ut vitae facere? In, odit dolor!</p>
+            <code>This is code</code>
+            <li>TFT
+                <ol>chanlenger</ol>
+                <ol>chemtech</ol>
+            </li>
+        </section>
+    </main>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
